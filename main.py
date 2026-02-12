@@ -2,7 +2,7 @@ from selenium import webdriver
 
 
 driver = webdriver.Chrome()
-
-driver.get("http://selenium.dev")
+query = "laptop"
+driver.get(f"https://www.amazon.in/s?k={query}")
 
 driver.quit()
